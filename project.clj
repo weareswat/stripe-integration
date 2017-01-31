@@ -30,6 +30,8 @@
   :scm {:name "git"
         :url "git@github.com:weareswat/stripe-integration.git"}
 
+  :main weareswat.stripe-integration.core
+  :ring {:handler weareswat.stripe-integration.http-component/app}
   :uberjar-name "weareswat.stripe-integration.jar"
 
   :profiles {:test {:dependencies [[ring/ring-mock "0.3.0"]
