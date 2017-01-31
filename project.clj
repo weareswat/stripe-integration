@@ -30,6 +30,8 @@
   :scm {:name "git"
         :url "git@github.com:weareswat/stripe-integration.git"}
 
+  :uberjar-name "weareswat.stripe-integration.jar"
+
   :profiles {:test {:dependencies [[ring/ring-mock "0.3.0"]
                                    [org.clojure/tools.namespace "0.2.11"]]
 
